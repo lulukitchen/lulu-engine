@@ -1,0 +1,66 @@
+{
+  "name": "@lulu/engine",
+  "version": "0.1.0",
+  "description": "Reusable ordering engine (cart, i18n, payments, CSV menu) for restaurant sites.",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "CONTRIBUTING.md"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --dts --format esm,cjs",
+    "dev": "tsup src/index.ts --watch --dts --format esm,cjs",
+    "lint": "eslint 'src/**/*.{ts,tsx}' --fix",
+    "lint:check": "eslint 'src/**/*.{ts,tsx}'",
+    "test": "echo \"Tests not yet implemented. See TESTING.md for setup guidelines.\" && exit 0",
+    "test:setup": "echo \"Run: npm install --save-dev jest @testing-library/react @testing-library/jest-dom ts-jest @types/jest\"",
+    "type-check": "tsc --noEmit",
+    "clean": "rm -rf dist",
+    "prepublishOnly": "npm run clean && npm run build && npm run lint:check && npm run type-check"
+  },
+  "keywords": [
+    "restaurant",
+    "ordering",
+    "cart",
+    "i18n",
+    "typescript",
+    "react",
+    "csv-menu",
+    "payments",
+    "whatsapp",
+    "hebrew",
+    "lulu-kitchen"
+  ],
+  "author": "lulukitchen",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lulukitchen/lulu-engine.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lulukitchen/lulu-engine/issues"
+  },
+  "homepage": "https://github.com/lulukitchen/lulu-engine#readme",
+  "peerDependencies": {
+    "i18next": ">=23",
+    "react": ">=18",
+    "react-dom": ">=18",
+    "react-i18next": ">=13",
+    "react-router-dom": ">=6"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.74",
+    "@types/react-dom": "^18.2.24",
+    "@typescript-eslint/eslint-plugin": "^7.18.0",
+    "@typescript-eslint/parser": "^7.18.0",
+    "eslint": "^8.57.1",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "tsup": "^8.0.1",
+    "typescript": "^5.4.0"
+  }
+}
