@@ -1,0 +1,29 @@
+{
+  "name": "@lulu/engine",
+  "version": "0.1.0",
+  "description": "Reusable ordering engine (cart, i18n, payments, CSV menu) for restaurant sites.",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist", "README.md", "LICENSE"],
+  "scripts": {
+    "build": "tsup src/index.ts --dts --format esm,cjs",
+    "dev": "tsup src/index.ts --watch --dts --format esm,cjs",
+    "lint": "echo \"no lint configured yet\"",
+    "test": "echo \"no tests yet\" && exit 0"
+  },
+  "peerDependencies": {
+    "react": ">=18",
+    "react-dom": ">=18",
+    "react-router-dom": ">=6",
+    "i18next": ">=23",
+    "react-i18next": ">=13"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "tsup": "^8.0.1",
+    "@types/react": "^18.2.74",
+    "@types/react-dom": "^18.2.24"
+  }
+}
