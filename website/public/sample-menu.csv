@@ -1,0 +1,17 @@
+id,category,name_en,name_he,description_en,description_he,price,image_url,tags,available
+kung-pao-chicken,Main Dishes,Kung Pao Chicken,קונג פאו עוף,Tender chicken with peanuts and vegetables in spicy Sichuan sauce,עוף רך עם בוטנים וירקות ברוטב חריף מסיצ'ואן,18.99,https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=400&h=300&fit=crop,"spicy,popular",1
+sweet-sour-pork,Main Dishes,Sweet and Sour Pork,חזיר מתוק וחמוץ,Crispy pork pieces in tangy sweet and sour sauce with bell peppers,חתיכות חזיר פריכות ברוטב מתוק וחמוץ עם פלפלים,16.99,https://images.unsplash.com/photo-1559847844-d11b16a0c48a?w=400&h=300&fit=crop,"sweet,popular",1
+beef-lo-mein,Main Dishes,Beef Lo Mein,לו מיין בקר,Soft noodles stir-fried with tender beef and fresh vegetables,אטריות רכות מוקפצות עם בקר רך וירקות טריים,17.99,https://images.unsplash.com/photo-1612927601601-6638404737ce?w=400&h=300&fit=crop,noodles,1
+mapo-tofu,Main Dishes,Mapo Tofu,מאפו טופו,Silky tofu in spicy Sichuan sauce with ground pork,טופו רך ברוטב סיצ'ואן חריף עם בשר חזיר טחון,15.99,https://images.unsplash.com/photo-1586190848861-99aa4a171e90?w=400&h=300&fit=crop,"spicy,vegetarian option",1
+beijing-duck,Main Dishes,Beijing Roast Duck,ברווז בייג'ינג,Traditional Beijing roast duck served with pancakes and hoisin sauce,ברווז צלוי בייג'ינג מסורתי מוגש עם פנקייקים ורוטב הויסין,28.99,https://images.unsplash.com/photo-1551218808-94e220e084d2?w=400&h=300&fit=crop,"signature,premium",1
+spring-rolls,Appetizers,Spring Rolls,ספרינג רולים,Crispy rolls filled with fresh vegetables and greens,רולים פריכים עם ירקות טריים וירוקי עלים,8.99,https://images.unsplash.com/photo-1544025162-d76694265947?w=400&h=300&fit=crop,"vegetarian,crispy",1
+dumplings,Appetizers,Pork Dumplings,דמפלינגס,Steamed dumplings filled with seasoned pork and vegetables,דמפלינגס מאודים במילוי חזיר וירקות,12.99,https://images.unsplash.com/photo-1496116218417-1a781b1c416c?w=400&h=300&fit=crop,"steamed,popular",1
+wonton-soup,Appetizers,Wonton Soup,מרק וונטון,Homemade wontons in clear chicken broth,וונטונים ביתיים במרק עוף זך,9.99,https://images.unsplash.com/photo-1547592166-23ac45744acd?w=400&h=300&fit=crop,"soup,comfort",1
+crab-rangoon,Appetizers,Crab Rangoon,קראב רנגון,Crispy wontons filled with cream cheese and crab,וונטונים פריכים במילוי גבינה קרמיה וסרטן,11.99,https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop,"crispy,creamy",1
+green-tea,Beverages,Jasmine Green Tea,תה ירוק יסמין,Aromatic jasmine green tea,תה ירוק יסמין ארומטי,3.99,,tea,1
+oolong-tea,Beverages,Oolong Tea,תה אולונג,Traditional Chinese oolong tea,תה אולונג סיני מסורתי,4.49,,tea,1
+chinese-beer,Beverages,Tsingtao Beer,בירה צינגטאו,Classic Chinese beer,בירה סינית קלאסית,5.99,,alcoholic,1
+fresh-juice,Beverages,Fresh Orange Juice,מיץ תפוזים טרי,Freshly squeezed orange juice,מיץ תפוזים סחוט טרי,4.99,,fresh,1
+sesame-balls,Desserts,Sesame Balls,כדורי שומשום,Deep-fried sesame balls filled with sweet red bean paste,כדורי שומשום מטוגנים במילוי ממרח שעועית אדומה,6.99,https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&h=300&fit=crop,"sweet,traditional",1
+mango-pudding,Desserts,Mango Pudding,פודינג מנגו,Creamy mango pudding topped with fresh fruit,פודינג מנגו קרמי עם פירות טריים,7.99,https://images.unsplash.com/photo-1541544181051-e46607bc22fb?w=400&h=300&fit=crop,"creamy,fresh",1
+fortune-cookies,Desserts,Fortune Cookies,עוגיות מזל,Traditional fortune cookies with wise sayings,עוגיות מזל מסורתיות עם ברכות,3.99,,traditional,1
