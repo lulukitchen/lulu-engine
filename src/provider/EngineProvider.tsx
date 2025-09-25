@@ -1,10 +1,11 @@
 import React, { createContext, useContext } from "react";
+import type { BusinessHours } from "../types";
 
 export type EngineConfig = {
   menuCsvUrl: string;
   whatsappNumberIntl: string; // e.g. 972525201978
   orderEmails: string[];
-  businessHours: any;
+  businessHours: BusinessHours;
   paymentProviders: { bitUrl?: string; payboxUrl?: string; cash?: boolean };
 };
 
